@@ -47,3 +47,95 @@
 .intro h1, p, input {
     margin: 10px 10%;
 }
+/* section failure */
+.failure {
+    display: flex;
+    /*  flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    margin: 10% 10%;
+}
+.failure div {
+    width: 50%;
+    padding: 15px;
+    margin: 0 5%;
+}
+.fail-list {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: flex-start;
+    list-style-image: url(/images/icons/check\ 1.svg);
+}
+.failure-heading {
+    color: #151414);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    width: 288px;
+    text-align: left;
+}
+.failure-paragraph {
+    color: #444343);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    display: flex;
+    width: 416px;
+    text-align: left;
+    padding: 5px 0;
+    margin: 0;
+}
+.img {
+    /* width: 527.929px; 
+    height: 527.929px;  */
+    /* border-radius: 50%; */
+    /* background: rgba(241, 91, 34, 0.20); */
+    /* padding: 180px 30px 5px; */
+    /* background-size: 527.929px 527.929px; */
+    /* background-position: center; */
+}
+.img-class {
+    align-items: center;
+    padding: 10%;
+}
+/* plan section */
+.plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 10%;
+}
+.plan-heading {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.plan-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+} 
+.plan-inner-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.plan-inner-div h4 {
+    color:#151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: normal;
+}
+.plan-inner-div p {
+    color: #737272;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: normal;
+}
+
