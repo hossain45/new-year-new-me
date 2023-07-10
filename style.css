@@ -90,7 +90,12 @@
 .img-class {
     align-items: center;
     padding: 10%;
+    background-image: url(/images/Ellipse.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 81%;
 }
+
 /* plan section */
 .plan {
     display: flex;
@@ -188,5 +193,72 @@
     padding: 20px 45px;
     border: none;
     border-radius: 5px;
+}
+footer {
+    background-color: black;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    margin: 0 10%;
+}
+.footer div {
+    width: 50%;
+    padding: 0%;
+    margin: 8% 0;
+}
+.future-heading {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 0;
+    margin: 2% 0;
+}
+.future-para {
+    display: flex;
+    width: 485px;
+    flex-direction: column;
+    text-align: left;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0%;
+    margin: 0%;
+}
+.form-heading {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 2% 28%;
+    margin-bottom: 5%;
+}
+.form input {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 2% 28%;
+}
+.email {
+    color: white;
+    background: #151414;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    width: 325px;
+    height: 64px;
+}
+.email::placeholder {
+    padding: 10px 10px;
+    color: #F3F3F3;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
 }
 
