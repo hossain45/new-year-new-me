@@ -65,7 +65,7 @@
     flex-direction: column; 
     justify-content: center;
     align-items: flex-start;
-    list-style-image: url(/images/icons/check\ 1.svg);
+    list-style-image: url(images/icons/check\ 1.svg);
 }
 .failure-heading {
     color: #151414);
@@ -90,7 +90,7 @@
 .img-class {
     align-items: center;
     padding: 10%;
-    background-image: url(/images/Ellipse.png);
+    background-image: url(images/Ellipse.png);
     background-repeat: no-repeat;
     background-position: center;
     background-position-y: 81%;
